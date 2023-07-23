@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework lesson 28</title>
+    <link
+      href="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Вверхнее меню -->
+      <div class="verhnee__menu">
+        <div class="container">
+          <!-- Левая сторона -->
+          <div class="left">
+            <ul class="hover-menu ul_li">
+              <li class="br">
+                <i class="fa-solid fa-bullhorn"></i>Sms Default welcome!
+              </li>
+              <li>
+                <span class="icon_msg">
+                  <i class="fa-solid fa-gift"></i>
+                  <span class="msg"> 02 </span>
+                </span>
+                <span>Gift Vounchers</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Правая сторона -->
+          <div class="right">
+            <ul class="ul_li">
+              <li class="br">
+                <i class="fa-sharp fa-solid fa-language"></i>Language: ENG
+              </li>
+              <li class="br">
+                <i class="fa-sharp fa-solid fa-money-check-dollar"></i>Curency:
+                USD
+              </li>
+              <li>Sign in/Register</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="center__menu">
+        <div class="container">
+          <ul class="ul_li">
+            <li class="logo">
+              <div class="logo__img pb-3">
+                <img src="./images/logo.png" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="left">
+                <span class="gray-holl"
+                  ><i class="fa-regular fa-calendar-days"></i
+                ></span>
+              </div>
+              <div class="right ml-10">
+                <p>Mon - Sat 8h00 - 1800</p>
+                <p>Sunday <span class="red">CLOSED</span></p>
+              </div>
+            </li>
+            <li>
+              <div class="left">
+                <span class="gray-holl"
+                  ><i class="fa-solid fa-bookmark"></i
+                ></span>
+              </div>
+              <div class="right ml-10">
+                <p>Every Week Sales!</p>
+                <p>Discount <span class="yellow">up to 50% off.</span></p>
+              </div>
+            </li>
+            <li>
+              <div class="left">
+                <span class="gray-holl"><i class="fa-solid fa-phone"></i></span>
+              </div>
+              <div class="right ml-10">
+                <p>Have a Questions?</p>
+                <p>Call <span class="blue">1900 - 819898</span></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nijnee-menu">
+        <div class="container df">
+          <div class="left">
+            <ul class="hover-menu ul_li">
+              <li>
+                <a href="#">Home</a>
+                <div class="dropdown__menu">
+                  <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="ul_li df">
+              <li>
+                <div class="search">
+                  <input type="text" placeholder="Search..." />
+                  <span class="icon-search"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></span>
+                </div>
+              </li>
+              <li>
+                <div class="left">
+                  <span class="gray-holl"
+                    ><i class="fa-sharp fa-solid fa-bag-shopping"></i
+                  ></span>
+                </div>
+                <div class="right ml-10">
+                  <p>My Cart.</p>
+                  <p>01 <span class="gray">/ $150.00</span></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section id="product">
+          <div class="block__title">
+            <div class="left">
+              <h1>Featured</h1>
+            </div>
+            <div class="right">
+              <span
+                >View All Products
+                <i class="fa-solid fa-circle-chevron-right"></i
+              ></span>
+            </div>
+          </div>
+          <div class="body__block">
+            <div class="list__product">
+              <div class="product">
+                <div class="img">
+                  <div class="tooltip">
+                    <span>New</span>
+                  </div>
+                  <img class="product-image" src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <div class="tooltip">
+                    <span>New</span>
+                  </div>
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <div class="tooltip green-tooltip bg-green">
+                    <span>-25%</span>
+                  </div>
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="img">
+                  <img src="./images/img61.jpg" alt="image1" />
+                  <div class="desc__img">
+                    <p class="ttl">Описание</p>
+                    <p class="ttl">Shirt</p>
+                    <p class="yellow">ЭТО</p>
+                  </div>
+                </div>
+                <div class="body__product">
+                  <p class="ttl">Animal Print Sweetshirt</p>
+                  <div class="block__stars">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="reviews">
+                      <span>6 review(s)</span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <span>$32</span>
+                    <del>$54</del>
+                  </div>
+                  <div class="btns dnone">
+                    <ul class="ul_li">
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <span class="gray-holl">
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="gray-holl">
+                          <i class="fa-solid fa-heart"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="banner" class="mt-3 mb-5">
+          <div class="footer__banners row">
+            <div class="first__banner col-md-8 pe-2">
+              <img src="./images/banner.png" alt="banner" />
+            </div>
+            <div class="second__banner col-md-4">
+              <img src="./images/banner2.png" alt="banner-2" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div>
+              <img src="./images/logo.png" alt="logo" />
+            </div>
+            <p class="mt-4 mb-3 footer-p_i">
+              <i>
+                Miukid is a premium eCommerce theme with advanced admin
+                module.</i
+              >
+            </p>
+            <ul class="gray">
+              <li>
+                <span><i class="fa-solid fa-phone"></i></span>
+                <span
+                  >Telephone:
+                  <a href="tel:+996999909848">+996999909848</a></span
+                >
+              </li>
+              <li class="mt-2 mb-2">
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <span
+                  >Email:<a href="mailto:beknurmoldokeev13@gmail.com"
+                    >beknurmoldokeev13@gmail.com</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span><i class="fa-solid fa-clock"></i></span>
+                <span>8:00 - 19:00, Monday - Saturday, Sunday - closed</span>
+              </li>
+            </ul>
+            <div class="footer-btn mt-3 mb-4">
+              <button>Buy This Theme</button>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <h2 class="mb-5">Information</h2>
+            <ul class="mt-3 gray">
+              <li class="mb-2">About us</li>
+              <li>Shipping & Returns</li>
+              <li class="mb-2 mt-2">Privacy Notices</li>
+              <li class="mb-2">Condtions of Use</li>
+              <li>RSS</li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h2 class="mb-5">Service</h2>
+            <ul class="mt-3 gray">
+              <li class="mb-2">Online Support</li>
+              <li>Help & FAQs</li>
+              <li class="mb-2 mt-2">Call Center</li>
+              <li class="mb-2">Contact Us</li>
+              <li>Custom Link</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h2>Instagram</h2>
+            <ul class="d-flex flex-wrap mt-5 justify-content-between">
+              <li><img class="mb-1" src="./images/img18.jpg" alt="" /></li>
+              <li><img class="mb-1" src="./images/img19.jpg" alt="" /></li>
+              <li><img class="mb-1" src="./images/img20.jpg" alt="" /></li>
+              <li><img class="mb-1" src="./images/img21.jpg" alt="" /></li>
+              <li><img src="./images/img22.jpg" alt="" /></li>
+              <li><img src="./images/img23.jpg" alt="" /></li>
+              <li><img src="./images/img24.jpg" alt="" /></li>
+              <li><img src="./images/img25.jpg" alt="" /></li>
+            </ul>
+          </div>
+          <div
+            class="footer__menu mt-3 mb-5 pb-3 d-flex justify-content-between"
+          >
+            <ul class="d-flex">
+              <li><i class="fa-brands fa-twitter me-5"></i></li>
+              <li><i class="fa-brands fa-skype me-5"></i></li>
+              <li><i class="fa-brands fa-vine me-5"></i></li>
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+            </ul>
+            <ul class="d-flex form-control-sm gray">
+              <li class="me-2">Home</li>
+              <li class="me-2">New Arrivals</li>
+              <li>Site Map</li>
+            </ul>
+          </div>
+          <div class="footer__menu-2 mb-5 d-flex justify-content-between">
+            <p class="gray">
+              Copyright © 2018 by <span> EngoTheme.</span> All Rights Reserved.
+            </p>
+            <div>
+              <ul class="d-flex">
+                <li><img class="me-1" src="./images/icon1.png" alt="" /></li>
+                <li><img class="me-1" src="./images/icon2.png" alt="" /></li>
+                <li><img class="me-1" src="./images/icon3.png" alt="" /></li>
+                <li><img class="me-1" src="./images/icon4.png" alt="" /></li>
+                <li><img src="./images/icon5.png" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
